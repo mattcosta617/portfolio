@@ -1,0 +1,140 @@
+body {
+    /* background-color: red; */
+    background-image: url("/images/Sedona.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    transform: scale(1.2);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-shadow: 10px 10px black;
+}
+
+#skills h1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+a:hover {
+    text-shadow: 2px 2px black;
+    /* transform: scale(1.1);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); */
+    transition-timing-function: ease-in;
+
+  /* Quick on the way out */
+  transition: 0.8s;
+
+}
+
+
+
+#introduce {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    min-width:10vw;
+  max-width: 35vw;
+  text-align:center;
+	margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    animation: bounce; 
+    animation-duration: 2s;
+}
+
+.navigators {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    min-width:10vw;
+  max-width: 35vw;
+  text-align:center;
+	margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    font-size: 35px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    text-shadow: 10px 10px black;
+    color: white;
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    min-width:10vw;
+  max-width: 35vw;
+  text-align:center;
+	margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+.topic {
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+}
+
+#contact {
+    margin-top: 120px;
+    text-align: center;
+    text-shadow: 10px 10px black;
+}
+
+.spread {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}

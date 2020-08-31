@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="header">
+        <div id="me">
+            <%for(let i = 0; i < author.length; i ++){ %>
+                <h1><%= author[i].name %></h1>
+                <h3><%= author[i].location %></h3>
+                <% }; %>
+            </div>
+            <!-- <div class="navigators"> -->
+                <a class="navigators" href="#about"><li>about </li></a>
+                <a class="navigators" href="#projects"><li>projects </li></a>
+                <a class="navigators" href="#skills"><li>skills </li></a>
+                <a class="navigators" href="#contact"><li>contact </li></a>
+                <!-- </div> -->
+            </nav>
+        <div id="introduce">
+            <h1>MATT COSTA</h1>
+        </div>
+
+    <section id="about">
+        <h1 class="topic spread">About Me</h1>
+            <h2>Why did you become a Software Engineer?</h2>
+                <h4>I have always been very passionate about technology and the constant growth that comes along with it. Being able to create and innovate is something I really love to do. I also love structure and learning systems that others have set in place that create a simplified work environement.</h4>
+            
+            <h2>What is something unique to know about Matt Costa?</h2>
+                <h4>I am the youngest of seven brothers and as you'd imagine I have had to work hard for everything I have ever gotten in my life. I learned how to work in a team environment just from growing up in my home by cleaning the house with my brothers, playing sports with them, always hanging out and getting things done together.</h4>
+
+            <h2>Where is your favorite place in the world?</h2>
+                <h4>I've been fortunate enough to have traveled to 10 countries in my life so far. My favorite place by far is Jinotega, Nicaragua. It's a beautiful city in a bowl of mountains. The people are kind and the atmosphere is absolutely immaculate. Surrounded by fields of coffee and chocolate farms.</h4>
+    </section>
+    <section id="projects">
+        <h1 class="topic spread">Projects</h1>
+        <%for(let i = 0; i < project.length; i ++){ %>
+            <a class="projects" href='/projects/<%=[i]%>'><h1><%= project[i].name %></h1></a>
+        <% } %>
+    </section>  
+    <section id="skills">
+
+            <h1 class="topic spread">What do I know?</h1>
+                <div class="skills">
+                    <h3>Python</h3>
+                    <h3>Javascript</h3>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills">
+                    <h3>CSS</h3>
+                    <h3>MongoDB</h3>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skills">
+                    <h3>Django</h3>
+                    <h3>React</h3>
+                    <h3>Node</h3>
+                </div>
+                <div class="skills">
+                    <h3>Express</h3>
+                    <h3>Git</h3>
+                    <h3>Mongoose</h3>
+                </div>
+            
+    </section>
+    <section id="contact">
+        <h1>Email: mattiecosta@gmail.com</h1>
+        <a class="link" href="https://github.com/mattcosta617/"><h1>Github</h1></a>
+    </section>
+</body>
+</html>

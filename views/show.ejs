@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/show.css">
+    <title>Project Show</title>
+</head>
+    <body style="background-image: url(<%=project.background%>)">
+        <header id="header">
+            <a href="/">Home</a>
+        </header>
+        <div class="showInfo">
+            <h1 class="topic"> <%=project.name; %> </h1>  
+            <h3>URL</h3> 
+                <h4><a href="<%=project.url%>">Check it out here!</a></h4>
+            <h3>Languages</h3>
+                <h4> <%= project.language; %> </h4>
+            <h3>Description</h3>
+                <h4> <%= project.description; %></h4>
+
+        </div>
+    </body>
+</html>
