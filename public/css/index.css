@@ -27,11 +27,16 @@ body {
         margin: 0;
     }
 
-    /* .skills {
-        font-size: 18px;
-        display: inline-block;
+    .aboutMe {
+        width: 90vw;
+    }
 
-    } */
+    .skills {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
 }
 
 a {
@@ -85,8 +90,8 @@ a:hover {
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); */
     transition-timing-function: ease-in;
 
-  /* Quick on the way out */
-  transition: 0.8s;
+    /* Quick on the way out */
+    transition: 0.8s;
 
 }
 
@@ -98,16 +103,14 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 200px;
     min-width:10vw;
-    max-width: 35vw;
+    max-width: 60vw;
     text-align:center;
 	margin:0 auto;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-shadow: 1px 1px black;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
-    animation: bounce; 
-    animation-duration: 2s;
 }
 
 .navigators {
@@ -125,8 +128,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-width:10vw;
-  max-width: 35vw;
-  text-align:center;
+    max-width: 35vw;
+    text-align:center;
 	margin:0 auto;
     align-items: center;
     justify-content: center;
@@ -149,6 +152,7 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+
 
 #about {
     display: flex;
