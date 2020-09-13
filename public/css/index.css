@@ -12,8 +12,9 @@ body {
 
 @media only screen and (max-width: 960px) {
 
-    #introduce {
-        font-size: 20px;
+    .tighten {
+        font-size: 55px;
+        padding-bottom: 20px;
     }
 
     .navigators-main {
@@ -43,7 +44,7 @@ body {
     /* flex-direction: row;
     justify-content: space-evenly; */
     position: relative;
-    top: -300px;
+    top: -100px;
     text-align: center;
     font-size: 25px;
     padding-top: 40px;
@@ -111,8 +112,8 @@ a:hover {
 #introduce {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 200px;
+    padding-top: 120px;
+    /* padding-bottom: 200px; */
     min-width:10vw;
     max-width: 60vw;
     text-align:center;
@@ -182,6 +183,7 @@ a:hover {
     display: flex;
     flex-direction: column 3;
     justify-content: space-evenly;
+    text-align: left;
 }
 
 .topic {
