@@ -52,8 +52,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-width:10vw;
-  max-width: 35vw;
-  text-align:center;
+    max-width: 80vw;
+    text-align:center;
     text-shadow: 1px 1px black;
     background-color: rgb(228, 228, 228);
     font-size: 2em;
