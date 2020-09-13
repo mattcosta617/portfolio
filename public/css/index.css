@@ -10,21 +10,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
+
+    #introduce {
+        font-size: 20px;
+    }
 
     .navigators-main {
         display: inline-block;
-        margin-top: 35px;
+        /* margin-top: 35px; */
         font-size: 18px;
     }
 
     .navigators {
         margin-top: 5px;
-    }
-
-    #me {
-        display: flex;
-        margin: 0;
     }
 
     .aboutMe {
@@ -39,17 +38,29 @@ body {
     }
 }
 
+#me {
+    display: inline-block;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+    position: relative;
+    top: -300px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-shadow: 10px 5px rgba(0, 0, 0, 0.3);
+}
+
 a {
     transform: scale(1.2);
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    justify-content: space-evenly;
-    text-align: center;
-    font-size: 25px;
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
 }
 
 .link {
@@ -107,7 +118,7 @@ a:hover {
     text-align:center;
 	margin:0 auto;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     text-shadow: 1px 1px black;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
@@ -170,6 +181,7 @@ a:hover {
 .col {
     display: flex;
     flex-direction: column 3;
+    justify-content: space-evenly;
 }
 
 .topic {
@@ -199,7 +211,7 @@ a:hover {
     overflow: hidden;
     padding-top: 20px;
   }
-
+                                                                                                              
 
 /* Dropdown button */
 .dropdown .dropbtn {

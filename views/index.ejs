@@ -39,20 +39,23 @@
         </div> -->
 
         <div id="introduce">
-            <h1>MATT COSTA</h1>
-              <div id="me">
-                <div>
-                <h4>Software Engineer</h4>
-                </div>
-            </div>
             <%for(let i = 0; i < author.length; i ++){ %>
-            <h3><%= author[i].location %></h3>
+                <h1 class="tighten"><%= author[i].name %></h1>
             <% }; %>
         </div>
+        <div id="me">
+            <div>
+                <h4>Software Engineer</h4>
+            <%for(let i = 0; i < author.length; i ++){ %>
+            <h3 class="tighten"><%= author[i].location %></h3>
+            <% }; %>
+            </div>
+        </div>
+        
         
 
     <section class="col" id="about">
-        <h1 class="topic spread">About Me</h1>
+        <h1 class="topic">About Me</h1>
         <div class="aboutMe">
         <h2>Why did you become a Software Engineer?</h2>
                 <h4>I have always been very passionate about technology and the constant growth that comes along with it. Being able to create and innovate is something I really love to do. I also love structure and learning systems that others have set in place that create a simplified work environement.</h4>
@@ -76,21 +79,29 @@
     </section>  
     <section id="skills">
 
-            <h1 class="topic spread">What do I know?</h1>
+            <h1 class="topic spread">Skillsets</h1>
             <div class="skills">
-                <div>
+                <div class="col">
                     <h3>Python</h3>
                     <h3>Javascript</h3>
+                </div>
+                <div class="col">
                     <h3>HTML</h3>
                     <h3>CSS</h3>
+                </div>
+                <div class="col">
                     <h3>MongoDB</h3>
                     <h3>SQL</h3>
                 </div>
-               <div>
+                <div class="col">
                     <h3>Django</h3>
                     <h3>React</h3>
+                </div>
+                <div class="col">
                     <h3>Node</h3>
                     <h3>Express</h3>
+                </div>
+                <div class="col">
                     <h3>Git</h3>
                     <h3>Mongoose</h3>
                 </div>
