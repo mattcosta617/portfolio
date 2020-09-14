@@ -3,7 +3,7 @@ body {
     background-image: url("/images/Sedona.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: fixed; */
+    background-position: fixed;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-family: 'Indie Flower', cursive;
