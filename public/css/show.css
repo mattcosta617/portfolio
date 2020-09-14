@@ -22,8 +22,8 @@ a:hover {
     transition-timing-function: ease-in;
     color: rgb(255, 252, 82);
 
-  /* Quick on the way out */
-  transition: 0.8s;
+    /* Quick on the way out */
+    transition: 0.8s;
 
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .topic {
-    font-size: 50px;
+    font-size: 2em;
 }
 
 .showInfo {
@@ -52,10 +52,22 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-width:10vw;
-  max-width: 35vw;
-  text-align:center;
-    text-shadow: 1px 1px black;
+    max-width: 50%;
+    text-align:center;
+    /* text-shadow: 1px 1px black; */
     background-color: rgb(228, 228, 228);
-    font-size: 2em;
+    font-size: 1em;
     border: 2px solid black;
+}
+
+#description {
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    width: 75%;
+}
+
+.label {
+    font-size: 25px;
+    font-style: bold;
 }
