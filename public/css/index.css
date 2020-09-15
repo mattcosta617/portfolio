@@ -156,7 +156,7 @@ a:hover {
 	margin:0 auto;
     align-items: center;
     justify-content: center;
-    text-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 25px;
 }
 
@@ -172,7 +172,7 @@ a:hover {
 .projects {
     display: flex;
     justify-content: center;
-    text-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
     color: white;
     text-decoration: none;
 }
@@ -208,7 +208,7 @@ a:hover {
 #contact {
     margin-top: 120px;
     text-align: center;
-    text-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 #contactTop {
