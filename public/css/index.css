@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 800px) {
 
     .tighten {
         padding-top: 100px;
