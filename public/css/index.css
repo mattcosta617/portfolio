@@ -1,5 +1,4 @@
 body {
-    /* background-color: red; */
     background-image: url("/images/Sedona.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +9,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
+
+    body {
+        background-image: url("/images/Sedona.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: fixed; */
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Roboto', sans-serif;
+    }
 
     .tighten {
         padding-top: 100px;
